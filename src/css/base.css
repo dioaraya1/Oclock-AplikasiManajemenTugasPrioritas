@@ -1,0 +1,8 @@
+@tailwind base;
+@layer base {
+  /* Custom base styles can be added here */
+  html,
+  body {
+    font-family: "Inter", "sans-serif";
+  }
+}

@@ -1,0 +1,15 @@
+1. npm install -D tailwindcss@3.4 postcss autoprefixer
+2. npx tailwindcss init -p
+3. taruh script dev ke package.json
+
+"scripts": {
+    "tw": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.build.css --watch",
+    "sass": "sass ./src/sass/main.scss ./public/css/sass.build.css --watch",
+    "dev": "npm-run-all --parallel tw sass"
+}
+
+4. install helper:
+npm install npm-run-all --save-dev
+
+5. Jalankan development
+npm run dev
