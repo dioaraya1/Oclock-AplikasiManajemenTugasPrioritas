@@ -5,4 +5,8 @@
   .btn-navigation {
     @apply px-5 py-2 text-center rounded-lg transition-all duration-300 ease-in-out font-semibold;
   }
+
+  .btn-navigation-lg {
+    @apply px-7 py-3 text-center rounded-lg transition-all duration-300 ease-in-out font-semibold;
+  }
 }

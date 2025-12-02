@@ -7,9 +7,9 @@
   },
   "scripts": {
     "tw-main": "tailwindcss -i ./src/css/main.css -o ./public/css/main.build.css --watch",
-    "tw-base": "tailwindcss -i ./src/css/base.css -o ./public/css/main.build.css --watch",
-    "tw-components": "tailwindcss -i ./src/css/components.css -o ./public/css/main.build.css --watch",
-    "tw-utilities": "tailwindcss -i ./src/css/utilities.css -o ./public/css/main.build.css --watch",
+    "tw-base": "tailwindcss -i ./src/css/base.css -o ./public/css/main.base.css --watch",
+    "tw-components": "tailwindcss -i ./src/css/components.css -o ./public/css/main.components.css --watch",
+    "tw-utilities": "tailwindcss -i ./src/css/utilities.css -o ./public/css/main.utilities.css --watch",
     "dev": "npx npm-run-all --parallel tw-main tw-base tw-components tw-utilities"
   }
 }
