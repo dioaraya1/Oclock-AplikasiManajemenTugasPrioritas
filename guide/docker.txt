@@ -1,0 +1,6 @@
+docker command
+
+- docker version
+- docker image ls (list)
+- docker image pull nameimage (php):tag (latest)
+- docker image rm nameimage:tag
